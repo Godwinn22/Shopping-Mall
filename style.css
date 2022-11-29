@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: ghostwhite;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    width: 10%;
+    margin-top: 20px;
+}
+.search .one{
+    width: 15%;
+    margin-left: 30px;
+    /* background-color: rgba(5, 5, 20, 0.937);
+    border-radius: 50%;
+    filter: contrast(100px); */
+}
+.search .two{
+    width: 15%;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.none {
+   width: 20%;
+}
+li {
+    padding: 20px 40px;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bag {
+    width: 3%;
+    position: absolute;
+    top:70%;
+    left: 7%;
+}
+.buy {
+    width: 50%;
+    height: 50px;
+    background-color: rgba(10, 59, 80, 0.934);
+    color: white;
+    border: none;
+    margin-top: 20px        ;
+    border-radius: 70px;
+    font-size: 17px;
+    padding: 0px 20px;
+    text-align: right;
+}
+.allprice {
+    margin-left: 6%;
+    margin-top: 5%; 
+    width: 30%;
+}
+.allprice h1 {
+    white-space: pre;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.allprice h2 {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.728);
+}
+.drink {
+    color: rgba(21, 85, 21, 0.95);
+}
+.order, .orderprice {
+    font-size: 25px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.728);
+}
+.orderprice{
+    font-weight: bolder;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choose {
+    width: 60%;
+    height: 90px;
+    background-color: rgba(255, 182, 193, 0.403);
+    border-radius: 10px;
+}
+.choose > button {
+    padding: 10px 15px;
+    margin-left: 21px;
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(6, 6, 20);
+    margin-top: 15px;
+}
+.choose > h4 {
+    font-size: 15px;
+    text-align: center;
+}
+.choose span {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.middle {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    position: relative;
+}
+.circle {
+    width: 100%;
+    height: 28rem;
+    background-color: grey;
+    border-radius: 50%;
+}
+.circle img {
+    width: 150%;
+    height: 100%;
+    margin-left: -28%;
+}
+.classic {
+    width: 60%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 40px;
+    position: absolute;
+    background-color: white;
+    top: 70%;
+    left: -20%;
+    box-shadow: 0px 0px 10px -5px;
+}
+.classic h5 {
+    font-size: 20px;
+}
+.classic p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.rect1 {
+    width: 10%;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    height: 30px;
+    background-color: rgba(200, 9, 9, 0.795);
+}
+.rect2 {
+    width: 10%;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    height: 30px;
+    filter: blur(2px);
+    background-color:rgb(201, 183, 183);
+}
+.original {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 23%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 10px -5px;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+}
+.original h4 {
+    white-space: pre;
+    margin-top: 15px;
+    margin-left: 23px;
+    font-size:18px;
+}
+h4 span {
+    font-size: 20px;
+    margin-left: 5px;
+    color: rgb(217, 66, 10);
+}
+.best {
+    width: 60%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 40px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 10px -5px;
+    top: 40%;
+    left: 70%;
+}
+.rect3 {
+    width: 10%;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    height: 30px;
+    background-color: rgba(13, 130, 148, 0.795);
+}
+.rect4 {
+    width: 10%;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    height: 30px;
+    filter: blur(2px);
+    background-color:rgb(201, 183, 183);
+}
+.best h4 {
+    font-size: 20px;
+}
+.burger {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    display: none;
+}
+.best p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+.right {
+    margin-left: 100px;
+    width: 30%;
+}
+.right div {
+    margin-top: 10%;
+}
+.firstimg img{
+    width: 40%;
+    margin-left: 40%;
+}
+.fourthimg img{
+    width: 38%;
+    margin-left: 40%;
+}
+.shad1 {
+    box-shadow: 0px 0px 50px 7px rgb(17, 9, 9);
+    width: 30%;
+    transform: translate(130px, 50px);
+}
+.shad2 {
+    box-shadow: 0px 0px 50px 7px rgb(35, 17, 17);
+    width: 30%;
+    transform: translate(150px, 70px);
+}
+.shad3 {
+    box-shadow: 0px 0px 50px 7px rgb(35, 17, 17);
+    width: 30%;
+    transform: translate(150px, 80px);
+}
+.secondimg img{
+    width: 40%;
+    margin-left: 40%;
+}
+.thirdimg img{
+    width: 50%;
+    margin-left: 40%;
+}
+.increase {
+    transform: rotate(90deg);
+}
+.decrease {
+    transform: rotate(90deg);
+}
+@media screen and (max-width:1300px){
+    .choose > button {
+        padding: 10px 15px;
+        margin-left: 18px;
+        margin-top: 15px;
+        border: none;
+    }
+    .circle {
+        width: 100%;
+        height: 25rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+    .bag {
+        width: 3%;
+        position: absolute;
+        top:69.5%;
+        left: 7%;
+    }
+    .original {
+        width: 22%;
+        height: 90px;
+    }
+    .original h4 {
+        margin-left: 18px;
+        font-size:15px;
+    }
+    .classic h5 {
+        font-size: 18px;
+    }
+    .classic p {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:1200px){
+   section {
+        background-color: red;
+    }
+    .choose > button {
+        padding: 6px 10px;
+        margin-left: 22px;
+        margin-top: 15px;
+        border: none;
+    }
+    .bag {
+        width: 3%;
+        position: absolute;
+        top:69.4%;
+        left: 7%;
+    }
+    .circle {
+        height: 23rem;
+    }
+    .original {
+        width: 22%;
+        height: 90px;
+    }
+    .original h4 {
+        margin-left: 18px;
+        font-size:15px;
+    }
+    .classic h5 {
+        font-size: 18px;
+    }
+    .classic p {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:600px){
+    .right div {
+        margin-top: 20%;
+    }
+         .burger{
+             display: block;
+             position: absolute;
+             right: 1.5%;
+             top: 5px;
+             background-color: black;
+         }
+         ul {
+             width: 40%;
+             background-color: rgba(10, 30, 28, 0.457);
+             position: absolute;
+             display: block;
+             left: 60%;
+             text-align: right;
+             top: 0px;
+             color: white;
+             clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+             transition-property: clip-path;
+             transition-duration: 1s;
+         }
+         .clip {
+             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+         }
+         li {
+             display: block;
+             padding-top: 15px;
+             text-align: center;
+         }
+    .choose > button {
+        padding: 6px 10px;
+        margin-left: 22px;
+        margin-top: 15px;
+        border: none;
+    }
+    .bag {
+        width: 3%;
+        position: absolute;
+        top:69.4%;
+        left: 7%;
+    }
+    .circle {
+        height: 23rem;
+    }
+    .original {
+        width: 22%;
+        height: 90px;
+    }
+    .original h4 {
+        margin-left: 18px;
+        font-size:15px;
+    }
+    .classic h5 {
+        font-size: 18px;
+    }
+    .classic p {
+        font-size: 11px;
+    }
+    section {
+        background-color: ghostwhite;
+        height: 100vh;
+    }
+    .all {
+        display: block;        
+    }
+    .search {
+        margin-top: 10px;
+    }
+    .search .one{
+        width: 30%;
+        margin-left: -70px;
+    }
+    .search .two{
+        width: 30%;
+        margin-left: -20px;
+    }
+    .choose > button {
+        padding: 2px 6px;
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 15px;
+        border: none;
+    }
+    .choose > h4 {
+        font-size: 11px;
+        text-align: center;
+    }
+    .choose span {
+        font-size: 17px;
+        margin-left: 8px;
+    }
+    .buy {
+        width: 24%;
+        height: 40px;
+        position: absolute;
+        font-size: 15px;
+        top: 91%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+    }
+    .choose {
+        width:25%;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 37.5%;
+    }
+    .allprice{
+        margin-top: 0%;
+        width: 90%;
+        text-align: center;
+    }
+    .circle {
+        width: 120%;
+        height: 16rem;
+        background-color: grey;
+        border-radius: 50%;
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+    .right {
+        position: absolute;
+        width: 30%;
+        top: 42%;
+        left: 42%;
+    }
+    .bag {
+        width: 5%;
+        position: absolute;
+        top:92.3%;
+        left: 39%;
+        z-index: 2;
+    }
+    .classic,.original,.best {
+        display: none;
+    }
+}
